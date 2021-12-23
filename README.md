@@ -1,13 +1,11 @@
+# Commission Templates  
  <p align="center">
-  <a href="https://bluefoxhost.com/"><img src="https://github.com/Scar-Productions/Commissions-Template/blob/main/assets/BlueFox_Banner.png" width="400" height="150" alt="Blue Fox" /></a>
-  </p>
-  <br />
-<p align="center">
+  <a href="https://bluefoxhost.com/"><img src="https://github.com/Scar-Productions/Commissions-Template/blob/main/assets/BlueFox_Banner.png" alt="Blue Fox" /></a>
   <a href="https://discord.gg/xxmFV4Ct3k"><img src="https://img.shields.io/discord/891105245021761596?color=blueviolet&label=Server&logo=discord&logoColor=white&style=plastic" alt="Discord Server" /></a>
 </p>  
 
-# Commission Templates  
-## Usage
+## Usage  
+
 > ⚠️ These templates must not be recognizable as a copy and paste! 
 Although the code is not super important to edit, things like embeds, colors, images, etc. should all be changed or edited in a way that it isn't recognizable between bots.  
 
@@ -19,7 +17,7 @@ If you upload a template, it should be able to be easily combined with another t
 
 When creating a template, make sure to checkout what's already there. Try not upload duplicates, or even extremely similar templates. Sometimes though, there may be a case where its necessary. Sometimes though, this is unavoidable with complex things such as an economy system. If you are doing a commission and can't find a template, think about making one!  
 
-It is also super important to make comments, or annoations, of what your template does. Try to imagine your template as someone who's never seen the system before. Find your complex or confusing parts and explain what they do. All files should have at least some description of what they do (if its not extremely ovbious or there isn't a description provided such as in a command file)  
+It is also super important to make comments, or annoations, of what your template does. Try to imagine your template as someone who's never seen the system before. Find your complex or confusing parts and explain what they do. All files should have at least some description of what they do (if its not extremely obvious or there isn't a description provided such as in a command file)  
 
 ## Uploading  
 > ⚠️ When uploading to the repo, always make sure you're in a seperate branch for that template!  
