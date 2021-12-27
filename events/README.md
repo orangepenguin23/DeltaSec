@@ -1,4 +1,4 @@
-# Handlers
+# Events
  <p align="center">
   <a href="https://bluefoxhost.com/"><img src="https://github.com/Scar-Productions/Commissions-Template/blob/main/assets/BlueFox_Banner.png" alt="Blue Fox" /></a>
   <a href="https://discord.gg/xxmFV4Ct3k"><img src="https://img.shields.io/discord/891105245021761596?color=blueviolet&label=Server&logo=discord&logoColor=white&style=plastic" alt="Discord Server" /></a>
