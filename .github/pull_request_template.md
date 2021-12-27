@@ -1,10 +1,8 @@
-# Pull Request Template
+# New Template OR Template Fix
 
 ## Description
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
-
-Fixes # (issue)
+Please include a summary of templates added and or template fixes. List any dependencies that are required for these files.
 
 ## Type of change
 
@@ -20,5 +18,4 @@ Please delete options that are not relevant.
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] I have checked my code and corrected any misspellings
