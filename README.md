@@ -11,6 +11,17 @@ Although the code is not super important to edit, things like embeds, colors, im
 
 Templates are an extremely useful tool for commissions as they save us Devs from remaking everything from scratch **every single time**. Thats why we decided to make a massive library of common commands, events, and interactions that can be used for commissions. Hopefully at some point, we won't have to make much from scratch at all.  
 
+#### Getting Started with a project  
+
+Projects can be easily started from the main as everything you would need is there. Moving into specifics, we will be using branches. For example, if we want to make an economy system template, we'll start an economy branch. Then whenever someone makes a feature for an economy, we can put it into the economy branch. When you want to use the economy templates, simply use the following set of terminal commands.
+
+```
+git stash
+git pull <remote> <branch>
+git stash pop
+```  
+This will pull from the branch, without overwriting local changes. When doing a commission, try to do all pulls before starting work. This way, if something were to go wrong, you don't have to waste any time with merging and conflicts.  
+
 ## Creating a Template  
 > ⚠️ Templates should be cross compatible!
 If you upload a template, it should be able to be easily combined with another template. If you upload a command, it should work with the command handler template, if you upload an embed with buttons, it should work with the button handler.  
