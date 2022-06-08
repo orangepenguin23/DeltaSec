@@ -1,0 +1,35 @@
+Message Commands --- commands -> message -> folder -> command file
+    - async execute(client, message, args, Discord) { *this line must never change unless you change the params in messageCreate*
+    - the folder name doesn't matter as long as the command file is in a folder inside message inside commands
+    - the file name does't matter either, as long as the name: property inside is set to the command name
+Slash Commands --- commands -> slash -> folder -> command file
+    - async execute(interaction, client, Discord) { *this line must never change unless you change the params in interactionCreate*
+    - the folder name doesn't matter as long as the command file is in a folder inside slash inside commands
+    - the file name does't matter either, as long as the name: property inside is set to the command name
+Events --- events -> folder -> event file
+    - module.exports = async (Discord, client, message) => { *This line can change slightly, (Discord, client) must remain the same unless you change it 
+    in the event handler, any params from the event itself (like message, reaction, user, etc.) should go after this*
+    - the folder name doesn't matter as long as the event file is in a folder inside events
+    - the event file name must be set to whatever the event name is (example: ready event is named ready.js instead of random name with listener inside)
+Buttons and Menus --- events -> interactions -> buttons or menus -> folder -> button or menu file
+    - async execute (interaction, client, Discord) { *this line must never change unless you change the params in interactionCreate*
+    - the folder name doesn't matter as long as the button or menu file is in a folder inside the respective folder inside interactions in events
+    - the file name does't matter either, as long as the name: property inside is set to the custom id of the interaction
+In the example provided for buttons the custom id in ping was set to .setCustomId('delete') so then, in the button file we set name: 'delete' so the
+handler knows which file to execute the button in
+
+This same method is used for menus. The only difference is we execute it differently,
+Say you create a menu with 2 options, option 1 and option 2, to execute those itd look like the following:
+module.exports = {
+    name: 'CustomId',
+    async execute(interaction, client, Discord) {
+        switch(interaction.values[0]) {
+            case "Option 1":
+                interaction.reply('option 1 selected')
+            break;
+            case "Option 2":
+                interaction.reply('option 2 selected')
+            break;
+        }
+    }
+}

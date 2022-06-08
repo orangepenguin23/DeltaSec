@@ -17,9 +17,9 @@ module.exports = async (client, Discord) => {
     const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
 
     (async () => {
-        try {
+        try {00
             await rest.put(
-                Routes.applicationCommands(process.env.CLIENT),
+                Routes.applicationGuildCommands(process.env.CLIENT, '863251700207058954'),
                 { body: commands },
             );
             console.log(`Successfully reloaded application (/) commands!`);

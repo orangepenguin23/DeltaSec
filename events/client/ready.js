@@ -1,4 +1,4 @@
 module.exports = (Discord, client) => {
-    client.user.setActivity("over my servers.", { type: "WATCHING" })
+    client.user.setActivity("twitch.tv/cake_is_op", { type: "WATCHING" })
     console.log("Bot is online!")
 }
